@@ -1,23 +1,41 @@
-# Portfolio
+# Athithya S A — Portfolio
 
-A personal portfolio for presenting software engineering, applied AI research, and selected projects.
+A lightweight, responsive personal portfolio presenting selected work in applied AI, software engineering, and product development.
 
-## Planned sections
+## Preview locally
 
-- Introduction and current focus
-- Selected projects with repository and demo links
-- Engineering skills and tools
-- Research and publications
-- Experience and leadership
-- Contact links
+No build tool or package installation is required. Open `index.html` in a browser, or run a local static server:
 
-## Engineering principles
+```bash
+python -m http.server 8000
+```
 
-- Keep project descriptions factual and link to source repositories.
-- Do not publish private, client-owned, or personal material without permission.
-- Keep the site responsive, accessible, and lightweight.
-- Validate links and run the available checks before publishing.
+Then visit `http://localhost:8000`.
 
-## Status
+## Site sections
 
-This repository is being bootstrapped. The first website implementation will be submitted as a separate pull request for review.
+- Introduction and selected work
+- About and engineering approach
+- Current technical focus
+- GitHub and LinkedIn contact links
+
+## Projects featured
+
+- [JARVIS-X](https://github.com/athiops/Self-Evolving-Multi-Model-AI-System)
+- [Hackathon Evaluation Portal](https://github.com/athiops/Hackathon-Evaluation-Portal)
+- [AI Course Automation Bot](https://github.com/athiops/-AI-Course-Automation-Bot)
+- [Eldrion Website](https://github.com/athiops/ELDRION_web-)
+
+Project descriptions are intentionally concise; consult each repository for implementation details and current status.
+
+## Engineering notes
+
+- Semantic HTML with responsive CSS and no runtime framework dependency.
+- Keyboard-visible focus states and reduced-motion support.
+- External links opened in a new tab use `rel="noopener noreferrer"`.
+- Keep project claims factual and do not publish private or client-owned material without permission.
+
+## Contact
+
+- [GitHub](https://github.com/athiops)
+- [LinkedIn](https://www.linkedin.com/in/athithyasa/)
